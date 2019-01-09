@@ -8,11 +8,9 @@
     "lint": "tslint --project ."
   },
   "dependencies": {
-    "faker": "^4.1.0",
     "native-base": "^2.10.0",
     "react": "16.6.1",
     "react-native": "0.57.7",
-    "react-native-elements": "^0.19.1",
     "react-native-gesture-handler": "^1.0.12",
     "react-native-vector-icons": "^6.1.0",
     "react-navigation": "^3.0.9",
@@ -22,11 +20,9 @@
     "redux-logger": "^3.0.6",
     "redux-saga": "^1.0.0-rc.0",
     "reselect": "^4.0.0",
-    "typescript-fsa": "^3.0.0-beta-2",
-    "uuid": "^3.3.2"
+    "typescript-fsa": "^3.0.0-beta-2"
   },
   "devDependencies": {
-    "@types/faker": "^4.1.4",
     "@types/jest": "^23.3.10",
     "@types/react": "^16.7.13",
     "@types/react-native": "^0.57.18",
@@ -34,7 +30,6 @@
     "@types/react-redux": "^6.0.11",
     "@types/react-test-renderer": "^16.0.3",
     "@types/redux-logger": "^3.0.6",
-    "@types/uuid": "^3.4.4",
     "babel-jest": "23.6.0",
     "jest": "23.6.0",
     "jest-haste-map": "^23.6.0",
