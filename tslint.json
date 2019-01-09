@@ -1,0 +1,13 @@
+{
+  "extends": "tslint-config-standard",
+  "rules": {
+    "await-promise": false,
+    "no-unused-variable": false,
+    "no-use-before-declare": false,
+    "return-undefined": false,
+    "no-floating-promises": false,
+    "no-unnecessary-qualifier": false,
+    "no-unnecessary-type-assertion": false,
+    "strict-type-predicates": false
+  }
+}

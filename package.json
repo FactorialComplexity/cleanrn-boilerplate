@@ -1,0 +1,74 @@
+{
+  "name": "cleanrn",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "lint": "tslint --project ."
+  },
+  "dependencies": {
+    "faker": "^4.1.0",
+    "native-base": "^2.10.0",
+    "react": "16.6.1",
+    "react-native": "0.57.7",
+    "react-native-elements": "^0.19.1",
+    "react-native-gesture-handler": "^1.0.12",
+    "react-native-vector-icons": "^6.1.0",
+    "react-navigation": "^3.0.9",
+    "react-navigation-redux-helpers": "^2.0.8",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^1.0.0-rc.0",
+    "reselect": "^4.0.0",
+    "typescript-fsa": "^3.0.0-beta-2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/faker": "^4.1.4",
+    "@types/jest": "^23.3.10",
+    "@types/react": "^16.7.13",
+    "@types/react-native": "^0.57.18",
+    "@types/react-navigation": "^2.13.7",
+    "@types/react-redux": "^6.0.11",
+    "@types/react-test-renderer": "^16.0.3",
+    "@types/redux-logger": "^3.0.6",
+    "@types/uuid": "^3.4.4",
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "jest-haste-map": "^23.6.0",
+    "metro-react-native-babel-preset": "0.50.0",
+    "prettier": "1.15.3",
+    "prettier-tslint": "^0.4.2",
+    "react-test-renderer": "16.6.1",
+    "ts-jest": "^23.10.5",
+    "tslib": "^1.9.3",
+    "tslint": "^5.11.0",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.2.2"
+  },
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "useBabelrc": true
+      }
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
+    "preset": "react-native",
+    "testMatch": [
+      "**/__tests__/**/*.[tj]s?(x)",
+      "**/?(*.)(spec|test).[tj]s?(x)"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    }
+  }
+}
