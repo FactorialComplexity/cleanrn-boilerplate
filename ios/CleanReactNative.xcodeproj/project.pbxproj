@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		118F455D9A784E0CA769B608 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F32023DE70C042298D5AE2FC /* Ionicons.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -27,6 +28,7 @@
 		68AB36A23DA1DE7D7F0E1802 /* Pods-CleanReactNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanReactNative.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CleanReactNative/Pods-CleanReactNative.debug.xcconfig"; sourceTree = "<group>"; };
 		816F8E2E222FE9BF6C7B4ACD /* Pods-CleanReactNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanReactNative.release.xcconfig"; path = "Pods/Target Support Files/Pods-CleanReactNative/Pods-CleanReactNative.release.xcconfig"; sourceTree = "<group>"; };
 		EFA1EB4A21E690490007739C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = CleanReactNative/Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F32023DE70C042298D5AE2FC /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		73F61BF3466742F18C5B7709 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F32023DE70C042298D5AE2FC /* Ionicons.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +81,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				DCE8B1CA1915097007B64EEF /* Pods */,
+				73F61BF3466742F18C5B7709 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -156,6 +167,7 @@
 			files = (
 				EFA1EB4B21E690490007739C /* LaunchScreen.xib in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				118F455D9A784E0CA769B608 /* Ionicons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
